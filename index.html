@@ -1,0 +1,1274 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al-Marjeia- Where Vision Meets Excellence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&family=Cairo:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header-inner">
+          <a href="#home" class="logo">
+            <img
+              src="images/logo1.png"
+              class="logo-icon"
+              alt="Al-Marjeia Logo" />
+            <span class="logo-text" data-i18n="logo">Al-Marjeia</span>
+          </a>
+
+          <nav class="nav-desktop">
+            <a href="#home" class="nav-link" data-i18n="home">Home</a>
+            <a href="#services" class="nav-link" data-i18n="services"
+              >Services</a
+            >
+            <a href="#about" class="nav-link" data-i18n="about">About</a>
+            <a href="#portfolio" class="nav-link" data-i18n="portfolio"
+              >Portfolio</a
+            >
+            <a href="#contact" class="nav-link" data-i18n="contact">Contact</a>
+          </nav>
+
+          <!-- Language Switcher for Desktop -->
+          <div class="language-switcher desktop">
+            <div class="language-dropdown">
+              <button class="current-lang" aria-label="Current language">
+                <span class="lang-text">English</span>
+              </button>
+              <div class="dropdown-menu">
+                <button data-lang="en" class="active">
+                  <span class="lang-text">English</span>
+                </button>
+                <button data-lang="ar">
+                  <span class="lang-text">العربية</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn-header" data-i18n="getInTouch"
+            >Get in Touch</a
+          >
+
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-nav">
+          <a href="#home" class="mobile-nav-link" data-i18n="home">Home</a>
+          <a href="#services" class="mobile-nav-link" data-i18n="services"
+            >Services</a
+          >
+          <a href="#about" class="mobile-nav-link" data-i18n="about">About</a>
+          <a href="#portfolio" class="mobile-nav-link" data-i18n="portfolio"
+            >Portfolio</a
+          >
+          <a href="#contact" class="mobile-nav-link" data-i18n="contact"
+            >Contact</a
+          >
+
+          <!-- Language Switcher for Mobile -->
+          <div class="language-switcher mobile">
+            <div class="language-buttons">
+              <button data-lang="en" class="active">
+                <span class="lang-text">English</span>
+              </button>
+              <button data-lang="ar">
+                <span class="lang-text">العربية</span>
+              </button>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn-mobile" data-i18n="getInTouch"
+            >Get in Touch</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <img
+          src="images/hero-bg.png"
+          alt="Professional team collaboration"
+          data-i18n-alt="heroImageAlt" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="title-line" data-i18n="heroTitleLine1"
+              >Where Vision</span
+            >
+            <span class="title-line" data-i18n="heroTitleLine2"
+              >Meets <span class="highlight">Excellence</span></span
+            >
+          </h1>
+
+          <p class="hero-subtitle" data-i18n="heroSubtitle">
+            Al-Marjeia delivers strategic communications, flawless events, and
+            digital innovation that transforms brands and creates lasting impact
+            across the Middle East and beyond.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#services" class="btn btn-primary">
+              <span data-i18n="exploreServices">Explore Our Services</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#portfolio" class="btn btn-secondary">
+              <i class="fas fa-play"></i>
+              <span data-i18n="viewOurWork">View Our Work</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom-gradient"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="services-bg-pattern"></div>
+
+      <div class="container">
+        <div class="services-intro-container">
+          <div
+            class="section-header"
+            style="text-align: left; margin-bottom: 0">
+            <span class="section-label" data-i18n="whatWeDo">What We Do</span>
+            <h2 class="section-title" data-i18n="ourServices">Our Services</h2>
+            <p class="section-subtitle" data-i18n="servicesSubtitle">
+              Comprehensive solutions tailored to elevate your brand and deliver
+              exceptional results across every touchpoint.
+            </p>
+          </div>
+
+          <div class="services-intro-image">
+            <img
+              src="images/services-infographic.png"
+              alt="Al-Marjeia Integrated Services Structure" />
+          </div>
+        </div>
+        <div style="margin-bottom: 60px"></div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div
+              class="service-icon"
+              style="background: rgba(122, 139, 105, 0.15); color: #7a8b69">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h3 class="service-title" data-i18n="publicRelations">
+              Public Relations
+            </h3>
+            <p class="service-description" data-i18n="prDescription">
+              Strategic media relations, crisis management, and brand
+              storytelling that shapes public perception and builds lasting
+              reputation.
+            </p>
+            <ul class="service-features">
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="mediaRelations">Media Relations</span>
+              </li>
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="crisisCommunications"
+                  >Crisis Communications</span
+                >
+              </li>
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="pressReleases">Press Releases</span>
+              </li>
+            </ul>
+            <a href="#contact" class="service-link">
+              <span data-i18n="learnMore">Learn More</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="service-card">
+            <div
+              class="service-icon"
+              style="background: rgba(139, 38, 53, 0.15); color: #8b2635">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h3 class="service-title" data-i18n="eventManagement">
+              Event Management
+            </h3>
+            <p class="service-description" data-i18n="eventDescription">
+              End-to-end event execution from concept to completion, creating
+              memorable experiences that engage and inspire.
+            </p>
+            <ul class="service-features">
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="corporateEvents">Corporate Events</span>
+              </li>
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="conferences">Conferences</span>
+              </li>
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="productLaunches">Product Launches</span>
+              </li>
+            </ul>
+            <a href="#contact" class="service-link" style="color: #8b2635">
+              <span data-i18n="learnMore">Learn More</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="service-card">
+            <div
+              class="service-icon"
+              style="background: rgba(90, 107, 73, 0.15); color: #5a6b49">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3 class="service-title" data-i18n="digitalServices">
+              Digital Services
+            </h3>
+            <p class="service-description" data-i18n="digitalDescription">
+              Cutting-edge digital solutions that transform your online presence
+              and drive measurable business growth.
+            </p>
+            <ul class="service-features">
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="webDevelopment">Web Development</span>
+              </li>
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="digitalStrategy">Digital Strategy</span>
+              </li>
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="uxuiDesign">UX/UI Design</span>
+              </li>
+            </ul>
+            <a href="#contact" class="service-link" style="color: #5a6b49">
+              <span data-i18n="learnMore">Learn More</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="service-card">
+            <div
+              class="service-icon"
+              style="background: rgba(154, 171, 137, 0.15); color: #9aab89">
+              <i class="fas fa-hashtag"></i>
+            </div>
+            <h3 class="service-title" data-i18n="socialMedia">Social Media</h3>
+            <p class="service-description" data-i18n="socialDescription">
+              Strategic social media management that builds communities, drives
+              engagement, and amplifies your brand voice.
+            </p>
+            <ul class="service-features">
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="contentStrategy">Content Strategy</span>
+              </li>
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="communityManagement"
+                  >Community Management</span
+                >
+              </li>
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="analytics">Analytics</span>
+              </li>
+            </ul>
+            <a href="#contact" class="service-link" style="color: #9aab89">
+              <span data-i18n="learnMore">Learn More</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="service-card">
+            <div
+              class="service-icon"
+              style="background: rgba(107, 26, 37, 0.15); color: #6b1a25">
+              <i class="fas fa-flag-checkered"></i>
+            </div>
+            <h3 class="service-title" data-i18n="motorsport">Motorsport</h3>
+            <p class="service-description" data-i18n="motorsportDescription">
+              Specialized motorsport communications and event management,
+              delivering high-octane experiences for racing enthusiasts.
+            </p>
+            <ul class="service-features">
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="raceEvents">Race Events</span>
+              </li>
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="sponsorship">Sponsorship</span>
+              </li>
+              <li>
+                <span class="feature-dot"></span>
+                <span data-i18n="brandActivation">Brand Activation</span>
+              </li>
+            </ul>
+            <a href="#contact" class="service-link" style="color: #6b1a25">
+              <span data-i18n="learnMore">Learn More</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="quote-decoration">"</div>
+
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image">
+            <div class="image-wrapper">
+              <img
+                src="images/about-team.png"
+                alt="Al-Marjeia team collaborating"
+                data-i18n-alt="aboutImageAlt" />
+              <div class="image-overlay"></div>
+            </div>
+
+            <div class="experience-card">
+              <div class="exp-icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <div class="exp-content">
+                <div class="exp-number" data-target="13" data-suffix="+">0</div>
+                <div class="exp-label" data-i18n="yearsOfExcellence">
+                  Years of Excellence
+                </div>
+              </div>
+            </div>
+
+            <div class="decor-square"></div>
+            <div class="decor-circle"></div>
+          </div>
+
+          <div class="about-content">
+            <span class="section-label" data-i18n="aboutAlMarjeia"
+              >About Al-Marjeia</span
+            >
+            <h2 class="section-title" data-i18n="twoDecadesOfExcellence">
+              Two Decades of Excellence in Communications
+            </h2>
+
+            <div class="about-text">
+              <p data-i18n="aboutText1">
+                Al Marjeia stands as a pioneer in the Saudi Public Relations
+                sector. We distinguish ourselves by seamlessly blending global
+                communication standards with a profound understanding of local
+                culture.
+              </p>
+              <p data-i18n="aboutText2">
+                We are more than just a PR agency; we are storytellers,
+                strategists, and trusted partners. From crafting national
+                narratives to building influential brands, we are dedicated to
+                excellence in every aspect of our work.
+              </p>
+            </div>
+
+            <a href="#contact" class="btn btn-primary">
+              <span data-i18n="learnOurStory">Learn Our Story</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Our Story, Vision & Mission - ADDED HERE -->
+        <div class="story-mission-section">
+          <!-- Our Story -->
+          <div class="story-box">
+            <div class="story-header">
+              <div class="story-icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+              <h3 class="story-title" data-i18n="ourStory">Our Story</h3>
+            </div>
+            <p class="story-text" data-i18n="ourStoryText">
+              When we established Al Marjeia, our ambition was not to be the
+              biggest agency, but the most trusted one. Our growth journey has
+              been anchored in understanding the heartbeat of the Kingdom,
+              embracing innovation, and adhering to the principles of authentic
+              communication. Our promise remains unwavering: to craft impactful
+              stories and deliver sustainable results that stand the test of
+              time.
+            </p>
+          </div>
+
+          <!-- Vision & Mission Grid -->
+          <div class="vision-mission-grid">
+            <!-- Vision -->
+            <div class="vm-item vision-item">
+              <div class="vm-item-header">
+                <div class="vm-item-icon">
+                  <i class="fas fa-eye"></i>
+                </div>
+                <h4 class="vm-item-title" data-i18n="visionTitle">
+                  Our Vision
+                </h4>
+              </div>
+              <p class="vm-item-text" data-i18n="visionText">
+                To be the most influential and trusted PR agency in Saudi Arabia
+                and the region, connecting brands with audiences through
+                authentic storytelling and high-impact campaigns.
+              </p>
+            </div>
+
+            <!-- Mission -->
+            <div class="vm-item mission-item">
+              <div class="vm-item-header">
+                <div class="vm-item-icon">
+                  <i class="fas fa-bullseye"></i>
+                </div>
+                <h4 class="vm-item-title" data-i18n="missionTitle">
+                  Our Mission
+                </h4>
+              </div>
+              <p class="vm-item-text" data-i18n="missionText">
+                To act as a strategic ally to our clients, empowering them to
+                build genuine, lasting relationships with their audiences
+                through bespoke campaigns designed to create tangible,
+                measurable impact.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-pattern"></div>
+
+      <div class="container">
+        <div class="portfolio-header">
+          <div>
+            <span class="section-label" data-i18n="ourWork">Our Work</span>
+            <h2 class="section-title" data-i18n="featuredProjects">
+              Featured Projects
+            </h2>
+          </div>
+
+          <div class="portfolio-nav">
+            <button class="nav-btn prev" aria-label="Previous project">
+              <i class="fas fa-arrow-left"></i>
+            </button>
+            <button class="nav-btn next" aria-label="Next project">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="portfolio-carousel">
+          <div class="carousel-track">
+            <div class="portfolio-slide active">
+              <img
+                src="images/portfolio-1.jpg"
+                alt="Global Tech Summit 2023"
+                data-i18n-alt="globalTechSummit" />
+              <div class="slide-overlay"></div>
+              <div class="slide-content">
+                <span class="slide-category" data-i18n="eventManagement"
+                  >Event Management</span
+                >
+                <h3 class="slide-title" data-i18n="globalTechSummit">
+                  Global Tech Summit 2023
+                </h3>
+                <p class="slide-description" data-i18n="globalTechDescription">
+                  A three-day international technology conference bringing
+                  together 2,000+ industry leaders from around the world.
+                </p>
+                <a href="#contact" class="slide-link">
+                  <span data-i18n="viewProject">View Project</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-slide">
+              <img
+                src="images/portfolio-2.jpg"
+                alt="Al-Rashid Brand Launch"
+                data-i18n-alt="alRashidBrand" />
+              <div class="slide-overlay"></div>
+              <div class="slide-content">
+                <span class="slide-category" data-i18n="publicRelations"
+                  >Public Relations</span
+                >
+                <h3 class="slide-title" data-i18n="alRashidBrand">
+                  Al-Rashid Brand Launch
+                </h3>
+                <p class="slide-description" data-i18n="alRashidDescription">
+                  Comprehensive PR campaign for a major retail brand expansion
+                  across the GCC region.
+                </p>
+                <a href="#contact" class="slide-link">
+                  <span data-i18n="viewProject">View Project</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-slide">
+              <img
+                src="images/portfolio-3.jpg"
+                alt="Digital Transformation Initiative"
+                data-i18n-alt="digitalTransformation" />
+              <div class="slide-overlay"></div>
+              <div class="slide-content">
+                <span class="slide-category" data-i18n="digitalServices"
+                  >Digital Services</span
+                >
+                <h3 class="slide-title" data-i18n="digitalTransformation">
+                  Digital Transformation Initiative
+                </h3>
+                <p
+                  class="slide-description"
+                  data-i18n="digitalTransformationDescription">
+                  Complete digital overhaul for a leading financial services
+                  provider, increasing engagement by 300%.
+                </p>
+                <a href="#contact" class="slide-link">
+                  <span data-i18n="viewProject">View Project</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-slide">
+              <img
+                src="images/portfolio-4.jpg"
+                alt="Championship Racing Series"
+                data-i18n-alt="championshipRacing" />
+              <div class="slide-overlay"></div>
+              <div class="slide-content">
+                <span class="slide-category" data-i18n="motorsport"
+                  >Motorsport</span
+                >
+                <h3 class="slide-title" data-i18n="championshipRacing">
+                  Championship Racing Series
+                </h3>
+                <p
+                  class="slide-description"
+                  data-i18n="championshipRacingDescription">
+                  End-to-end event management and communications for premier
+                  racing championship in the region.
+                </p>
+                <a href="#contact" class="slide-link">
+                  <span data-i18n="viewProject">View Project</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio-slide">
+              <img
+                src="images/portfolio-5.jpg"
+                alt="Social Impact Campaign"
+                data-i18n-alt="socialImpact" />
+              <div class="slide-overlay"></div>
+              <div class="slide-content">
+                <span class="slide-category" data-i18n="socialMedia"
+                  >Social Media</span
+                >
+                <h3 class="slide-title" data-i18n="socialImpact">
+                  Social Impact Campaign
+                </h3>
+                <p
+                  class="slide-description"
+                  data-i18n="socialImpactDescription">
+                  Viral social campaign reaching 10M+ users for environmental
+                  awareness and sustainability.
+                </p>
+                <a href="#contact" class="slide-link">
+                  <span data-i18n="viewProject">View Project</span>
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-dots">
+            <button class="dot active" data-index="0"></button>
+            <button class="dot" data-index="1"></button>
+            <button class="dot" data-index="2"></button>
+            <button class="dot" data-index="3"></button>
+            <button class="dot" data-index="4"></button>
+          </div>
+        </div>
+
+        <!-- Thumbnail Preview -->
+        <div class="portfolio-thumbnails">
+          <button class="thumb active" data-index="0">
+            <img
+              src="images/portfolio-1.jpg"
+              alt="Global Tech Summit"
+              data-i18n-alt="globalTechSummit" />
+            <span data-i18n="globalTechSummit">Global Tech Summit</span>
+          </button>
+          <button class="thumb" data-index="1">
+            <img
+              src="images/portfolio-2.jpg"
+              alt="Al-Rashid Brand"
+              data-i18n-alt="alRashidBrand" />
+            <span data-i18n="alRashidBrand">Al-Rashid Brand</span>
+          </button>
+          <button class="thumb" data-index="2">
+            <img
+              src="images/portfolio-3.jpg"
+              alt="Digital Transformation"
+              data-i18n-alt="digitalTransformation" />
+            <span data-i18n="digitalTransformation"
+              >Digital Transformation</span
+            >
+          </button>
+          <button class="thumb" data-index="3">
+            <img
+              src="images/portfolio-4.jpg"
+              alt="Racing Series"
+              data-i18n-alt="championshipRacing" />
+            <span data-i18n="championshipRacing">Racing Series</span>
+          </button>
+          <button class="thumb" data-index="4">
+            <img
+              src="images/portfolio-5.jpg"
+              alt="Social Campaign"
+              data-i18n-alt="socialImpact" />
+            <span data-i18n="socialImpact">Social Campaign</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="timeline">
+      <div class="timeline-bg-pattern"></div>
+
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="ourProcess">Our Process</span>
+          <h2 class="section-title" data-i18n="successJourney">
+            Your <span class="highlight">Success</span> Journey
+          </h2>
+          <p class="section-subtitle" data-i18n="timelineSubtitle">
+            Integrated workflow steps to ensure your project success from
+            concept to completion.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <svg
+            id="timeline-svg"
+            viewBox="0 0 1000 200"
+            preserveAspectRatio="none">
+            <defs>
+              <linearGradient
+                id="timelineGradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%">
+                <stop offset="0%" stop-color="#7A8B69" />
+                <stop offset="50%" stop-color="#8B2635" />
+                <stop offset="100%" stop-color="#7A8B69" />
+              </linearGradient>
+            </defs>
+            <path id="timeline-path" d="M 50 90 Q 275 20 500 90 T 950 90" />
+          </svg>
+
+          <div class="timeline-points">
+            <div class="timeline-point" data-step="1" data-delay="0">
+              <div class="point-marker">
+                <span class="point-number">01</span>
+              </div>
+              <div class="point-content">
+                <h4 data-i18n="consultation">Consultation</h4>
+                <p data-i18n="consultationDesc">
+                  Understanding your vision and requirements
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-point" data-step="2" data-delay="0.2">
+              <div class="point-marker">
+                <span class="point-number">02</span>
+              </div>
+              <div class="point-content">
+                <h4 data-i18n="planning">Planning</h4>
+                <p data-i18n="planningDesc">
+                  Strategic roadmap and creative concepts
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-point" data-step="3" data-delay="0.4">
+              <div class="point-marker">
+                <span class="point-number">03</span>
+              </div>
+              <div class="point-content">
+                <h4 data-i18n="execution">Execution</h4>
+                <p data-i18n="executionDesc">
+                  Flawless implementation and management
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-point" data-step="4" data-delay="0.6">
+              <div class="point-marker">
+                <span class="point-number">04</span>
+              </div>
+              <div class="point-content">
+                <h4 data-i18n="monitoring">Monitoring</h4>
+                <p data-i18n="monitoringDesc">
+                  Real-time tracking and optimization
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-point" data-step="5" data-delay="0.8">
+              <div class="point-marker">
+                <span class="point-number">05</span>
+              </div>
+              <div class="point-content">
+                <h4 data-i18n="evaluation">Evaluation</h4>
+                <p data-i18n="evaluationDesc">Measuring success and impact</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+      <div class="quote-decoration left">"</div>
+      <div class="quote-decoration right">"</div>
+
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="testimonials"
+            >Testimonials</span
+          >
+          <h2 class="section-title" data-i18n="whatOurClientsSay">
+            What Our Clients Say
+          </h2>
+          <p class="section-subtitle" data-i18n="testimonialsSubtitle">
+            Trusted by leading brands across the Middle East and beyond. Here's
+            what they have to say about working with us.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="quote-icon">"</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text" data-i18n="testimonial1Text">
+              "Al-Marjeia transformed our brand launch into a nationwide
+              phenomenon. Their strategic approach and flawless execution
+              exceeded every expectation."
+            </p>
+            <div class="testimonial-author">
+              <img src="images/client-1.jpg" alt="Ahmed Al-Rashid" />
+              <div class="author-info">
+                <h4 data-i18n="testimonial1Name">Ahmed Al-Rashid</h4>
+                <p data-i18n="testimonial1Position">CEO, Al-Rashid Group</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">"</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text" data-i18n="testimonial2Text">
+              "The team's attention to detail and creative vision made our tech
+              summit an unforgettable experience. Professional, innovative, and
+              deeply committed."
+            </p>
+            <div class="testimonial-author">
+              <img src="images/client-2.jpg" alt="Sarah Mitchell" />
+              <div class="author-info">
+                <h4 data-i18n="testimonial2Name">Sarah Mitchell</h4>
+                <p data-i18n="testimonial2Position">
+                  Marketing Director, TechGlobal
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">"</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text" data-i18n="testimonial3Text">
+              "From concept to checkered flag, Al-Marjeia delivered motorsport
+              events that captured the hearts of racing fans across the region."
+            </p>
+            <div class="testimonial-author">
+              <img src="images/client-3.jpg" alt="Mohammed Al-Farsi" />
+              <div class="author-info">
+                <h4 data-i18n="testimonial3Name">Mohammed Al-Farsi</h4>
+                <p data-i18n="testimonial3Position">Founder, Racing Arabia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">"</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text" data-i18n="testimonial4Text">
+              "Their digital transformation expertise revolutionized our online
+              presence. The results speak for themselves—a 300% increase in
+              engagement."
+            </p>
+            <div class="testimonial-author">
+              <img src="images/client-4.jpg" alt="Layla Hassan" />
+              <div class="author-info">
+                <h4 data-i18n="testimonial4Name">Layla Hassan</h4>
+                <p data-i18n="testimonial4Position">CMO, FinanceHub</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">"</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text" data-i18n="testimonial5Text">
+              "The social media campaign they created for our environmental
+              cause reached millions and drove real change. Truly impactful
+              work."
+            </p>
+            <div class="testimonial-author">
+              <img src="images/client-5.jpg" alt="Khalid Al-Omar" />
+              <div class="author-info">
+                <h4 data-i18n="testimonial5Name">Khalid Al-Omar</h4>
+                <p data-i18n="testimonial5Position">
+                  Director, Green Initiative
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">"</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text" data-i18n="testimonial6Text">
+              "In crisis communications, Al-Marjeia proved invaluable. Their
+              strategic guidance protected our reputation during challenging
+              times."
+            </p>
+            <div class="testimonial-author">
+              <img src="images/client-6.jpg" alt="Fatima Al-Zahra" />
+              <div class="author-info">
+                <h4 data-i18n="testimonial6Name">Fatima Al-Zahra</h4>
+                <p data-i18n="testimonial6Position">
+                  VP Communications, EnergyCorp
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <span class="section-label light" data-i18n="getInTouch"
+              >Get in Touch</span
+            >
+            <h2 class="section-title light" data-i18n="letsCreate">
+              Let's Create Something Extraordinary
+            </h2>
+            <p class="section-subtitle light" data-i18n="contactSubtitle">
+              Ready to elevate your brand? Get in touch and let's discuss how we
+              can help you achieve your goals.
+            </p>
+
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info-content">
+                  <div class="info-label" data-i18n="address">Address</div>
+                  <div class="info-value" data-i18n="addressValue">
+                    Al-Salam Building, Floor 12, King Fahd Road, Riyadh, Saudi
+                    Arabia
+                  </div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="info-content">
+                  <div class="info-label" data-i18n="phone">Phone</div>
+                  <div class="info-value">+966 11 234 5678</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info-content">
+                  <div class="info-label" data-i18n="email">Email</div>
+                  <div class="info-value">hello@almarjaiya.com</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="info-content">
+                  <div class="info-label" data-i18n="workingHours">
+                    Working Hours
+                  </div>
+                  <div class="info-value" data-i18n="workingHoursValue">
+                    Sunday - Thursday, 9:00 AM - 6:00 PM
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">
+                    <span data-i18n="fullName">Full Name</span>
+                    <span class="required">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    data-i18n-placeholder="fullName"
+                    placeholder="John Doe"
+                    required />
+                </div>
+                <div class="form-group">
+                  <label for="email">
+                    <span data-i18n="emailAddress">Email Address</span>
+                    <span class="required">*</span>
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    data-i18n-placeholder="emailAddress"
+                    placeholder="john@example.com"
+                    required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone" data-i18n="phoneNumber"
+                    >Phone Number</label
+                  >
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    data-i18n-placeholder="phoneNumber"
+                    placeholder="+966 11 234 5678" />
+                </div>
+                <div class="form-group">
+                  <label for="company" data-i18n="companyName"
+                    >Company Name</label
+                  >
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    data-i18n-placeholder="companyName"
+                    placeholder="Your Company" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="service" data-i18n="serviceInterest"
+                  >Service Interest</label
+                >
+                <select id="service" name="service">
+                  <option value="" data-i18n="selectService">
+                    Select a service
+                  </option>
+                  <option value="pr" data-i18n="publicRelations">
+                    Public Relations
+                  </option>
+                  <option value="events" data-i18n="eventManagement">
+                    Event Management
+                  </option>
+                  <option value="digital" data-i18n="digitalServices">
+                    Digital Services
+                  </option>
+                  <option value="social" data-i18n="socialMedia">
+                    Social Media
+                  </option>
+                  <option value="motorsport" data-i18n="motorsport">
+                    Motorsport
+                  </option>
+                  <option value="other" data-i18n="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">
+                  <span data-i18n="message">Message</span>
+                  <span class="required">*</span>
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  data-i18n-placeholder="messagePlaceholder"
+                  placeholder="Tell us about your project..."
+                  required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-submit">
+                <span class="btn-text" data-i18n="sendMessage"
+                  >Send Message</span
+                >
+                <i class="fas fa-paper-plane"></i>
+                <span class="btn-loading">
+                  <span class="spinner"></span>
+                  <span data-i18n="sending">Sending...</span>
+                </span>
+              </button>
+            </form>
+
+            <div class="form-success" id="formSuccess">
+              <div class="success-icon">
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <h3 data-i18n="messageSent">Message Sent!</h3>
+              <p data-i18n="messageSentText">
+                Thank you for reaching out. We'll get back to you within 24
+                hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-top-border"></div>
+
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="logo">
+              <img
+                src="images/logo.png"
+                class="logo-icon"
+                alt="Al-Marjeia Logo" />
+              <span class="logo-text" data-i18n="logo">Al-Marjeia</span>
+            </a>
+            <p class="footer-description" data-i18n="footerDescription">
+              Strategic communications, flawless events, and digital innovation
+              that transforms brands and creates lasting impact.
+            </p>
+
+            <div class="newsletter">
+              <h4 data-i18n="stayUpdated">Stay Updated</h4>
+              <p data-i18n="subscribeNewsletter">
+                Subscribe to our newsletter for insights and updates.
+              </p>
+              <form class="newsletter-form" id="newsletterForm">
+                <input
+                  type="email"
+                  data-i18n-placeholder="yourEmail"
+                  placeholder="Your email"
+                  required />
+                <button type="submit" aria-label="Subscribe">
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </form>
+              <div class="newsletter-success" id="newsletterSuccess">
+                <span data-i18n="thankYouSubscribe"
+                  >Thank you for subscribing!</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4 data-i18n="services">Services</h4>
+            <ul>
+              <li>
+                <a href="#services" data-i18n="publicRelations"
+                  >Public Relations</a
+                >
+              </li>
+              <li>
+                <a href="#services" data-i18n="eventManagement"
+                  >Event Management</a
+                >
+              </li>
+              <li>
+                <a href="#services" data-i18n="digitalServices"
+                  >Digital Services</a
+                >
+              </li>
+              <li>
+                <a href="#services" data-i18n="socialMedia">Social Media</a>
+              </li>
+              <li><a href="#services" data-i18n="motorsport">Motorsport</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4 data-i18n="company">Company</h4>
+            <ul>
+              <li><a href="#about" data-i18n="about">About Us</a></li>
+              <li><a href="#about" data-i18n="ourTeam">Our Team</a></li>
+              <li><a href="#" data-i18n="careers">Careers</a></li>
+              <li><a href="#contact" data-i18n="contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4 data-i18n="resources">Resources</h4>
+            <ul>
+              <li><a href="#" data-i18n="blog">Blog</a></li>
+              <li>
+                <a href="#portfolio" data-i18n="caseStudies">Case Studies</a>
+              </li>
+              <li><a href="#" data-i18n="pressKit">Press Kit</a></li>
+              <li><a href="#" data-i18n="faqs">FAQs</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; <span id="year"></span> Al-Marjeia.
+            <span data-i18n="allRightsReserved">All rights reserved.</span>
+          </p>
+
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="script.js"></script>
+    <!-- GSAP for Advanced Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  </body>
+</html>
